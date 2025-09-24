@@ -61,6 +61,8 @@ approvedSvIdentities:
         weight: 3_0000
       - beneficiary: "Wormhole-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
+      - beneficiary: "CIP0065-ghostBonusPool-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Bonus Pool of rewards introduced in the CIP-0065 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
       - beneficiary: "Ledger-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
       - beneficiary: "Taurus-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Taurus CIP-0077 # escrow party_id added to the GhostSV-validator-1
