@@ -69,9 +69,9 @@ approvedSvIdentities:
         weight: 5_0000
       - beneficiary: "BitGo-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # BitGo CIP-0074 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
-      - beneficiary: "Zodia-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Fireblocks CIP-0075 # escrow party_id added to the GhostSV-validator-1
+      - beneficiary: "Zodia-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zodia CIP-0075 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
-      - beneficiary: "Republic-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # BitGo CIP-0080 # escrow party_id added to the GhostSV-validator-1
+      - beneficiary: "Republic-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
         weight: 6_0000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPwq1sDSnoZu5ayXq6ar8FRnfM+Fqxe1gZwMbbKYhggjliJxWfWQ9w5xVtw5YbLlczi9H4OL8gCOs1m43t3WFIw==
