@@ -49,8 +49,10 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "ZeroHash-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
         weight: 7_5000
+      - beneficiary: "Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4" # Ubyx CIP-0071 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 29500
       - beneficiary: "Ubyx-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ubyx CIP-0071 # escrow party_id added to the GhostSV-validator-1
-        weight: 5_0000
+        weight: 20500
       - beneficiary: "Hypernative-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Hypernative CIP-0076 # escrow party_id added to the GhostSV-validator-1
         weight: 1_0000
       - beneficiary: "Chainlink-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Chainlink CIP-0061 # escrow party_id added to the GhostSV-validator-1
