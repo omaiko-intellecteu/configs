@@ -1,7 +1,7 @@
 approvedSvIdentities:
   - name: Global-Synchronizer-Foundation
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
-    rewardWeightBps: 108_0000
+    rewardWeightBps: 145_5000
     extraBeneficiaries:
       - beneficiary: "validator_GSF-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: 10_0000
@@ -16,7 +16,7 @@ approvedSvIdentities:
       - beneficiary: "copper-mainnet-validator::122038dd7fcbdd68bde47034abfd582cbe38854d94dec10c18a7589706914e2b6e61" # Copper Clearloop CIP-0039
         weight: 1_0000
       - beneficiary: "Elliptic-validator-1::12205ddf609265d68ee694480f86331de14766bdac30800d04e491b93aca1a81d629" # Elliptic CIP-0044
-        weight: 5000
+        weight: 0_5000
       - beneficiary: "ObsidianSystems-validator-1::1220f8a24f975dc3d070e3111279bc2bf2d713a77c5570cbdd2064acb6a4d8d6feea" # Obsidian Systems CIP-0037
         weight: 1_0000
       - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Coin Metrics CIP-0046
@@ -29,10 +29,8 @@ approvedSvIdentities:
         weight: 1_0000
       - beneficiary: "IntellectEU-SVrewards-1::122085181345795b9e58122cef90b8df61ddfe128cdaf9abbcb77f8cef92950c1d05" # IntellectEU CIP-0058 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 1_0000
-      - beneficiary: "AngelHack-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # AngelHack CIP-0053 # escrow party_id added to the GhostSV-validator-1
-        weight: 1_5000
       - beneficiary: "angelhack-mainnet-1::12205162445638c3f71c9942b74360134b4ebc953b5bea2c25adc99bff130bffd060" # AngelHack CIP-0053 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 1_0000
+        weight: 2_5000
       - beneficiary: "Kaiko-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Kaiko CIP-0063 # escrow party_id added to the GhostSV-validator-1
         weight: 2_5000
       - beneficiary: "kaiko-mainnet-1::1220f67b4f1c8742d83ac7e12749d98195bf88ff120b2dab369291cf6a2ca27be9a9" # Kaiko CIP-0063 # active party_id used to receive an earned weight for completed milestone(s)
@@ -47,10 +45,14 @@ approvedSvIdentities:
         weight: 5_0000
       - beneficiary: "WoodsideAI-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Woodside AI CIP-0059 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
+      - beneficiary: "zh-treasury::122063e85c0ba02fafa77d2e2a4bfdde168628ed392f6c58df4afa9e8853968bca9a" # Zero Hash CIP-0060 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 3_0000
       - beneficiary: "ZeroHash-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zero Hash CIP-0060 # escrow party_id added to the GhostSV-validator-1
-        weight: 7_5000
+        weight: 4_5000
+      - beneficiary: "Ubyx-validator-1::12204cfc7847273bd046b70b5c5549627294a024fb2ab86f58755ee6aebeed9cc1c4" # Ubyx CIP-0071 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 2_9500
       - beneficiary: "Ubyx-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ubyx CIP-0071 # escrow party_id added to the GhostSV-validator-1
-        weight: 5_0000
+        weight: 2_0500
       - beneficiary: "Hypernative-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Hypernative CIP-0076 # escrow party_id added to the GhostSV-validator-1
         weight: 1_0000
       - beneficiary: "Chainlink-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Chainlink CIP-0061 # escrow party_id added to the GhostSV-validator-1
@@ -61,12 +63,30 @@ approvedSvIdentities:
         weight: 3_0000
       - beneficiary: "Wormhole-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
+      - beneficiary: "23d169c2-0909-4c70-81d1-1922de6febaa::12200e2eb783da98a6c55a9ea7a6415cf36582c3f2f031a02e54d07033610782abb5" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 2_0000
       - beneficiary: "Ledger-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
-        weight: 5_0000
+        weight: 3_0000
       - beneficiary: "Taurus-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Taurus CIP-0077 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
+      - beneficiary: "Fireblocks-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Fireblocks CIP-0072 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "BitGo-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # BitGo CIP-0074 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "Zodia-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zodia CIP-0075 # escrow party_id added to the GhostSV-validator-1
+        weight: 5_0000
+      - beneficiary: "Republic-sv-1::1220cf5c0358766265d8b67b3269d0ab15eba018449585fa9810481842f6ceeffc44" # Republic CIP-0080 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 3_0000
+      - beneficiary: "Republic-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
+        weight: 3_0000
+      - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Talos CIP-0085 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 2_5000
+      - beneficiary: "Talos-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
+        weight: 4_0000
+      - beneficiary: "Zenith-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zenith CIP-0091 # escrow party_id added to the GhostSV-validator-1
+        weight: 10_0000
   - name: Digital-Asset-1
-    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcGfwLnDE3vQuWcHE7CfVABigVK5nPeAjqFf66pIlXpqeoklu4KMnDE4Zse465NcWUgfMnjmmSw53hKRxuR6RFg==
+    publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPwq1sDSnoZu5ayXq6ar8FRnfM+Fqxe1gZwMbbKYhggjliJxWfWQ9w5xVtw5YbLlczi9H4OL8gCOs1m43t3WFIw==
     rewardWeightBps: 15_9250
   - name: SV-Nodeops-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQfazgfYYYuXXuUmujEUnLYsQfWnb8CEKsddv7Gt0SqG2v9Tx9/LyzteOdPOSXtb5XODumthhfpFh0MLnU8w+eQ==
@@ -82,7 +102,7 @@ approvedSvIdentities:
     rewardWeightBps: 15_9250
   - name: MPC-Holding-Inc
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPuCFe1z5+ZzVb9y78ewt9yYm7KjGlCk36nF5ZrkkoO+lZvAXmr0IEWEgtBHxienC2IIDGT49aQM6M8ukvbxYLA==
-    rewardWeightBps: 2_0000
+    rewardWeightBps: 5_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f47b4f7dbebab8f2af6967::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH
         weight: 1_0000
@@ -90,6 +110,8 @@ approvedSvIdentities:
         weight: 2500
       - beneficiary: "auth0_007c6882116872613fe1d8b0aeb6::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka (MPCH hosted wallet)
         weight: 7500
+      - beneficiary: "HexTrust-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # HexTrust CIP-0087 # escrow party_id added to the MPCH-GHOSTvalidator-1
+        weight: 3_0000
   - name: Orb-1-LP-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYSpqOpqB6lWVLfu7ojM/GTSALZK2X1MAKhJoZIJP+G7WkDo0Hap4VZtaSyrKiTqlcKu4ycgJ5UEG1WAkoKYjOA==
     rewardWeightBps: 10_0000
