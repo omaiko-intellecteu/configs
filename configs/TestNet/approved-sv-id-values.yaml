@@ -19,7 +19,7 @@ approvedSvIdentities:
     rewardWeightBps: 185_5000
     extraBeneficiaries:
       - beneficiary: "GhostSV-validator-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # All weight not assigned to any particular SV is added to the GhostSV-validator-1
-        weight: 1_4200
+        weight: 0_9700
       - beneficiary: "GSF-SVRewards-1::1220224995ee62e3176d395b1ae1fd95af8132b1da754e20af24e1c73074d936dced"
         weight: 10_0000
       - beneficiary: "thetie-validator-0::1220eba2eab5c94c78de4a64f600c9eab445af50f59e20bca8f555abbd53748d5223" # The Tie
