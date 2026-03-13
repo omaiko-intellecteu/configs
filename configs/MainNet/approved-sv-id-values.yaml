@@ -91,8 +91,10 @@ approvedSvIdentities:
         weight: 5_4083
       - beneficiary: "Talos-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
         weight: 1_0000
+      - beneficiary: "Zenith-validator-1::12207fb1d16c5b29d60aad5756041bd0e2b248a54154a4d29e49f6bf35b43fd4b488" # Zenith CIP-0091 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 1_0000
       - beneficiary: "Zenith-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zenith CIP-0091 # escrow party_id added to the GhostSV-validator-1
-        weight: 10_0000
+        weight: 9_0000
       - beneficiary: "USDT0-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # USDT0 CIP-0090 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
       - beneficiary: "DTCC-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # DTCC CIP-0083 # escrow party_id added to the GhostSV-validator-1
