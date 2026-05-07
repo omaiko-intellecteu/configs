@@ -81,9 +81,9 @@ approvedSvIdentities:
       - beneficiary: "Zodia-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Zodia CIP-0075 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
       - beneficiary: "Republic-validator-1::1220616e31d8341e64cc4f99a8ce503c987c27db760b6bd15fc7a0fd9f172db39ef7" # Republic CIP-0080 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 3_5000
+        weight: 4_0000
       - beneficiary: "Republic-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
-        weight: 2_5000
+        weight: 2_0000
       - beneficiary: "Talos-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Talos CIP-0085 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 5_4083
       - beneficiary: "Talos-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
