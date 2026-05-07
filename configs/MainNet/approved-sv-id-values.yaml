@@ -55,10 +55,8 @@ approvedSvIdentities:
         weight: 1_5000
       - beneficiary: "hypernative-validator-1::122055c3d9a3ac09fbeb9fcb9da8ab1582ccf3844220adda46ef99ef946513b40f75" # Hypernative CIP-0076
         weight: 1_0000
-      - beneficiary: "Chainlink-Mainnet-1::1220dd5b27f9e0459ec77822784d0e9b6c106fe4a71e9d5c19bd8ac574d2ab02f50e" # Chainlink CIP-0061 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 7_0000
-      - beneficiary: "Chainlink-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Chainlink CIP-0061 # escrow party_id added to the GhostSV-validator-1
-        weight: 0_5000
+      - beneficiary: "Chainlink-Mainnet-1::1220dd5b27f9e0459ec77822784d0e9b6c106fe4a71e9d5c19bd8ac574d2ab02f50e" # Chainlink CIP-0061
+        weight: 7_5000
       - beneficiary: "Chainlink-ghost-2::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Chainlink CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
       - beneficiary: "LayerZero-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Layer Zero CIP-0065 # escrow party_id added to the GhostSV-validator-1
@@ -84,9 +82,9 @@ approvedSvIdentities:
       - beneficiary: "Zodia-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zodia CIP-0075 # escrow party_id added to the GhostSV-validator-1
         weight: 5_0000
       - beneficiary: "Republic-sv-1::1220cf5c0358766265d8b67b3269d0ab15eba018449585fa9810481842f6ceeffc44" # Republic CIP-0080 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 3_5000
+        weight: 4_0000
       - beneficiary: "Republic-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Republic CIP-0080 # escrow party_id added to the GhostSV-validator-1
-        weight: 2_5000
+        weight: 2_0000
       - beneficiary: "CoinMetrics-validator-1::1220b6cf34a2c8937dc72403e7a8b57c80049be8aff3e5e2d992063460bdc8636466" # Talos CIP-0085 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 5_4083
       - beneficiary: "Talos-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
@@ -125,17 +123,17 @@ approvedSvIdentities:
     rewardWeightBps: 24_0000
     extraBeneficiaries:
       - beneficiary: "auth0_007c66f47b4f7dbebab8f2af6967::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # MPCH - wallet
-        weight: 5500
+        weight: 3000
       - beneficiary: "auth0_007c69dcad2a0dc0711745bca087::12209d133c58ab06046413890cf9e82473d72a821fa49f3acd4b15fb7bae3c39aba5" # MPCH - locking wallet
-        weight: 4500
+        weight: 7000
       - beneficiary: "auth0_007c684c0bbea5e9c9e5a9ad16f6::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka CIP-0032 - wallet
         weight: 1375
       - beneficiary: "auth0_007c69cce717dfb1e57de678b9dc::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka CIP-0032 - locking wallet
         weight: 1125
       - beneficiary: "auth0_007c6882116872613fe1d8b0aeb6::12204783725aa3adcd787311531134baed8b9b28ccf76b100c62b8d4995842aabd6b" # Lukka CIP-0032 - wallet
-        weight: 4125
+        weight: 1625
       - beneficiary: "12204::1220416f32818f52ab34cd7cec71a456082510345ad63bd3fc15b6fa9bb95342ca9d" # Lukka CIP-0032 - locking wallet
-        weight: 3375
+        weight: 5875
       - beneficiary: "HexTrust-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # HexTrust CIP-0087 # escrow party_id added to the MPCH-GHOSTvalidator-1
         weight: 3_0000
       - beneficiary: "Blockdaemon-ghost-1::12202639480c7e95ab18e696d83cdaa87cb5b92b935698ae4e69fb9cbfa2808d47ff" # Blockdaemon CIP-0094 # escrow party_id added to the MPCH-GHOSTvalidator-1
@@ -148,7 +146,7 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYSpqOpqB6lWVLfu7ojM/GTSALZK2X1MAKhJoZIJP+G7WkDo0Hap4VZtaSyrKiTqlcKu4ycgJ5UEG1WAkoKYjOA==
     rewardWeightBps: 10_0000
     extraBeneficiaries:
-      - beneficiary: "auth0_007c67acae90ab8ef9d344b817b4::12205d4d358e9de3351c74419d9746ea9083854c113f826240fe2b2ce808a51a3a7e" # Nima Capital
+      - beneficiary: "23d169c2-0909-4c70-81d1-1922de6febaa::1220f600a1d304a050cc0060c6cbac95c4b816078c3a53cc600717951407cbd15ae3" # Nima Capital # locking wallet
         weight: 5_0000
       - beneficiary: "auth0_007c6723cbcc5cee3153df57da4d::122039b0120dda65f350bbd22731b636ffe2eb757a4f04bf41a18d689c6e9351633a" # Nima Capital (Lennar)
         weight: 5_0000
@@ -164,6 +162,11 @@ approvedSvIdentities:
   - name: Liberty-City-Ventures-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQv53m25mctcprUUt3YKg+yJvqtRI+rxTy5alROf4hqCD1rb/w5G8/XPwOI5jFqAj5RTcDGyRz+LLxn28k63UxQ==
     rewardWeightBps: 10_0000
+    extraBeneficiaries:
+      - beneficiary: "auth0_007c684b4b8ad82363a45f6ccbb3::122078c40a05ac97e98209750599560884c916e3c89878d6e5a0df3e708588b7525f"
+        weight: 3_0000
+      - beneficiary: "auth0_007c69ea9fbd1ad8bdd64747b386::122078c40a05ac97e98209750599560884c916e3c89878d6e5a0df3e708588b7525f"
+        weight: 7_0000
   - name: Five-North-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGe25jhw59y0TXgGkEmWLgCjG9D3yq4GweHzGLQ7cnbNVUqiG/ndXeFLJG1rQy6a+Ky0XfJDdcs8yCvbbsV+qqg==
     rewardWeightBps: 26_0000
