@@ -63,7 +63,7 @@ approvedSvIdentities:
         weight: 1_5000
       - beneficiary: "Hypernative-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Hypernative CIP-0076 # escrow party_id added to the GhostSV-validator-1
         weight: 1_0000
-      - beneficiary: "Chainlink-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Chainlink CIP-0061 # escrow party_id added to the GhostSV-validator-1
+      - beneficiary: "Chainlink-ghost-1::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Chainlink CIP-0061
         weight: 7_5000
       - beneficiary: "Chainlink-ghost-2::1220a9cc88707f22cdad61f2cacc5edea9820daf21b70dc9744171f28e9b5b3c30f7" # Chainlink CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
