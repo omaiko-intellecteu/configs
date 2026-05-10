@@ -18,13 +18,11 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETri1wBeoV3AYnEF/slvViz9GO2g2lcxUQ3SadBTA70Kn87KzAZ/25n6+hhuRebuuGlm70KFKGJGr8RFd1YjB1Q==
     rewardWeightBps: 200_6000
     extraBeneficiaries:
-      - beneficiary: "GhostSV-validator-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # All weight not assigned to any particular SV is added to the GhostSV-validator-1
+      - beneficiary: "GhostSV-validator-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 0.92 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo)
         weight: 1_1950
       - beneficiary: "GSF-SVRewards-1::1220224995ee62e3176d395b1ae1fd95af8132b1da754e20af24e1c73074d936dced"
         weight: 10_0000
       - beneficiary: "thetie-validator-0::1220eba2eab5c94c78de4a64f600c9eab445af50f59e20bca8f555abbd53748d5223" # The Tie
-        weight: 1_0000
-      - beneficiary: "dfnstest1::122060195c0add31a2b3a57292a7a8f033c88c98b1ae8e36e6610e3b0e0b41aeeb6d" # Dfns
         weight: 1_0000
       - beneficiary: "ObsidianSystems-validator-1::122087bab51ae50157a06730e296081f8c941d64ec96f9a2e186e159bae25a553d04" # Obsidian Systems CIP-0037
         weight: 1_0000
@@ -62,8 +60,8 @@ approvedSvIdentities:
         weight: 3_0000
       - beneficiary: "Wormhole-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
-      - beneficiary: "ledger-ledgeropstestnet-0::122095f38f5c73cc18fbeb3290f8c17f7a1ff190f66fe159c671cf1fb0dc634eedaf" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 2_0000
+      # - beneficiary: "ledger-ledgeropstestnet-0::122095f38f5c73cc18fbeb3290f8c17f7a1ff190f66fe159c671cf1fb0dc634eedaf" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
+      #   weight: 2_0000 # CIP0105, Under-Locked SV Weight Enforcement
       - beneficiary: "Ledger-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
       - beneficiary: "Taurus-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Taurus CIP-0077 # active party_id used to receive an earned weight for completed milestone(s)
@@ -102,6 +100,8 @@ approvedSvIdentities:
         weight: 10_0000
       - beneficiary: "YZiLabs-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # YZi Labs CIP-0081 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
+      - beneficiary: "dfnstest1::122060195c0add31a2b3a57292a7a8f033c88c98b1ae8e36e6610e3b0e0b41aeeb6d" # Dfns
+        weight: 0_6000 # CIP0105, Under-Locked SV Weight Enforcement, Tier 2
       - beneficiary: "SocieteGenerale-ghost-1::1220d1c3265d2d5e43ddb1dda4fbb42a1b3780c94ebd86c5aac178845fc9ddec90ef" # Societe Generale CIP-0115 # escrow party_id added to the GhostSV-validator-1
         weight: 8_0000
   - name: MPC-Holding-Inc
@@ -128,7 +128,7 @@ approvedSvIdentities:
         weight: 5_0000
   - name: Tradeweb-Markets-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEO3NIzHIIxatGCFHLdONUYNJ3SePvA4lq3EbtMgvpe1CoALZZ+CRNZrHNsj49jdeJNQgcJBPsOcW7XP6VF7Q1YA==
-    rewardWeightBps: 10_0000
+    rewardWeightBps: 6_0000 # CIP0105, Under-Locked SV Weight Enforcement, Tier 2
   - name: C7-Technology-Services-Limited
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIyvyNX23/fxKnCkKArjOWxi+OBUtIXw4GoEGFMG4JXZBeVYYU6s4hBA5heMKDVaFszYEQQP1bBfjSQwWJ8PLDA==
     rewardWeightBps: 10_5750
