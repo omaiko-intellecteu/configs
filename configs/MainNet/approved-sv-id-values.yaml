@@ -57,8 +57,10 @@ approvedSvIdentities:
         weight: 1_5000
       - beneficiary: "Chainlink-ghost-2::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Chainlink CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 1_5000
+      - beneficiary: "lz-vault::1220f9a30f41d8ac4c92275e6fa07c63119ea05311b905097b925910a5842099f607" # Layer Zero CIP-0065 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 1_5000
       - beneficiary: "LayerZero-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Layer Zero CIP-0065 # escrow party_id added to the GhostSV-validator-1
-        weight: 3_0000
+        weight: 1_5000
       - beneficiary: "wormhole-validator-1::122085bf64156420a95663eb8b8cce516858de1d531d95850debe9ec8d15e3f6263e" # Wormhole CIP-0065 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 1_1000
       - beneficiary: "Wormhole-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
@@ -86,9 +88,9 @@ approvedSvIdentities:
       - beneficiary: "Talos-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Talos CIP-0085 # escrow party_id added to the GhostSV-validator-1
         weight: 1_0000
       - beneficiary: "Zenith-validator-1::12207fb1d16c5b29d60aad5756041bd0e2b248a54154a4d29e49f6bf35b43fd4b488" # Zenith CIP-0091 # active party_id used to receive an earned weight for completed milestone(s)
-        weight: 1_0000
+        weight: 4_0000
       - beneficiary: "Zenith-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Zenith CIP-0091 # escrow party_id added to the GhostSV-validator-1
-        weight: 9_0000
+        weight: 6_0000
       - beneficiary: "USDT0-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # USDT0 CIP-0090 # escrow party_id added to the GhostSV-validator-1
         weight: 10_0000
       - beneficiary: "DTCC-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # DTCC CIP-0083 # escrow party_id added to the GhostSV-validator-1
@@ -107,8 +109,10 @@ approvedSvIdentities:
         weight: 0_5000
       - beneficiary: "ledger-ledgerops-2::12207a4859ad414f4f47c2d773ddf4ea88de8c3a1aab19abaa197e504acdbf679d3c" # Ledger CIP-0069 # active party_id used to receive an earned weight for completed milestone(s)
         weight: 2_0000
+      - beneficiary: "ft::12200b5582a91686c5278999a988a8e6ae2ff7f870834fe2deccbafaefad73db4f2d" # Franklin Templeton CIP-0118 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 1_0000
       - beneficiary: "FranklinTempleton-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Franklin Templeton CIP-0118 # escrow party_id added to the GhostSV-validator-1
-        weight: 5_0000
+        weight: 4_0000
   - name: Digital-Asset-1
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEPwq1sDSnoZu5ayXq6ar8FRnfM+Fqxe1gZwMbbKYhggjliJxWfWQ9w5xVtw5YbLlczi9H4OL8gCOs1m43t3WFIw==
     rewardWeightBps: 15_9250
