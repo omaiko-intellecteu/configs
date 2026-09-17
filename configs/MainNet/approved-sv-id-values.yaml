@@ -57,8 +57,10 @@ approvedSvIdentities:
         weight: 1_5000
       - beneficiary: "Chainlink-ghost-2::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Chainlink CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 1_5000
+      - beneficiary: "lz-vault::1220f9a30f41d8ac4c92275e6fa07c63119ea05311b905097b925910a5842099f607" # Layer Zero CIP-0065 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 15000
       - beneficiary: "LayerZero-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Layer Zero CIP-0065 # escrow party_id added to the GhostSV-validator-1
-        weight: 3_0000
+        weight: 15000
       - beneficiary: "Wormhole-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
       - beneficiary: "Ledger-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
