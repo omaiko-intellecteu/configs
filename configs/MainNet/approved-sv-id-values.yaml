@@ -3,8 +3,8 @@ approvedSvIdentities:
     publicKey: MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmWLDU/xZzCtl6prd15Dyi+2/zMtSbHpQh8wJ/R3J9YKDVNpkJVo+qBkmYYSdlAifLz1aymUKqZlWDBvtQCJIaA==
     rewardWeightBps: 193_1000
     extraBeneficiaries:
-      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 2.42 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo)
-        weight: 2_6950
+      - beneficiary: "GhostSV-validator-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # All weight not assigned to any particular SV is added to the GhostSV-validator-1; 0.05 (Ubyx) + 0.92 (Fireblocks) + 0.0917 (Talos) + 0.1333 (BitGo) + 0.4 (Wormhole)
+        weight: 3_0950
       - beneficiary: "GSF-SVRewards-1::12201725270d497ab23ceffd0d2acce46cc9da44586fd494786ef53cc58b6e4abd79"
         weight: 10_0000
       - beneficiary: "validator_Broadridge::1220b0008ea5531b9e47d3315a822ca8b923b5bdd568c934557402d7160b8af4815d"
@@ -61,8 +61,10 @@ approvedSvIdentities:
         weight: 1_5000
       - beneficiary: "LayerZero-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Layer Zero CIP-0065 # escrow party_id added to the GhostSV-validator-1
         weight: 1_5000
+      - beneficiary: "wormhole-validator-1::122085bf64156420a95663eb8b8cce516858de1d531d95850debe9ec8d15e3f6263e" # Wormhole CIP-0065 # active party_id used to receive an earned weight for completed milestone(s)
+        weight: 1_1000
       - beneficiary: "Wormhole-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Wormhole CIP-0065 # escrow party_id added to the GhostSV-validator-1
-        weight: 3_0000
+        weight: 1_5000
       - beneficiary: "Ledger-ghost-1::1220f5cf298f609f538b46a2a0347d299028ddca7ea008aaed65e0ca862db974c5e2" # Ledger CIP-0069 # escrow party_id added to the GhostSV-validator-1
         weight: 3_0000
       - beneficiary: "Taurus-Wallet-1::122018406e4cb9114d63d33f04d6292acc029e2aa739e189c9fc35efb724ead0b57c" # Taurus CIP-0077 # active party_id used to receive an earned weight for completed milestone(s)
